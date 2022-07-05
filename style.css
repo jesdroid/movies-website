@@ -118,7 +118,7 @@
     text-align: center;
     line-height: 2.5;
 }
-@media screen and (max-device-width: 768px) {
+@media screen and (max-device-width: 991px) {
   .homer1
   {
     position: absolute;
