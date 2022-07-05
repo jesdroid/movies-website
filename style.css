@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.navbar
+{
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.27);
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.27);
+    z-index: 99;
+}
+/* section {
+    padding: 3rem 9%;
+  } */
+
+  /* .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    background: #e9edfb;
+    color: #224bcf;
+    cursor: pointer;
+    border-radius: .5rem;
+    font-size: 1.7rem;
+  }
+  
+  .btn:hover {
+    color: #fff;
+    background: #224bcf;
+  }
+
+  .home {
+    width: 100%;
+    height: auto;
+  }
+  
+  .home .image {
+    width: 50%;
+  }
+  
+  .home .image img {
+    width: 100%;
+  }
+  
+  .home .content {
+   width: 45%;
+   float: right;
+  }
+  
+  .home .content h3 {
+    color: #302851;
+    font-size: 5rem;
+  }
+  
+  .home .content p {
+    font-size: 1.4rem;
+    color: #666;
+    padding: 1rem 0;
+    line-height: 2.5;
+  }
+   */
+
+.homer1
+{
+    width: 100%;
+    height: auto;
+    /* border: red solid 1px; */
+    position: absolute;
+    display: flex;
+}
+.imgcol
+{
+    /* border: blue solid 1px; */
+    width: 50%;
+}
+.imgcol img
+{
+    width: 90%;
+}
+.titlecol
+{
+    /* border: blue solid 1px; */
+    width: 45%;
+    float: right;
+}
+.container
+{
+    /* border: solid 2px black; */
+    position: relative !important;
+    display: flex;
+}
+.titlecol h1
+{
+    display: block;
+    font-size: 48px;
+    text-align: center;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.homer1 p
+{
+    font-size: 18px;
+    color: #666;
+    padding: 16px 0;
+    text-align: center;
+    line-height: 2.5;
+}
+@media screen and (max-device-width: 768px) {
+  .homer1
+  {
+    position: absolute;
+    display: block;
+  }
+  
+.titlecol
+{
+    /* border: blue solid 1px; */
+    width: 45%;
+    float: none;
+}
+
+.imgcol
+{
+    /* border: blue solid 1px; */
+    width: 100%;
+}
+.imgcol img
+{
+    width: 90%;
+}
+.titlecol
+{
+    /* border: blue solid 1px; */
+    width: 100%;
+    float: right;
+}
+
+.titlecol h1
+{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.homer1 p
+{
+    font-size: 14px;
+    color: #666;
+    padding: 16px 0;
+    text-align: center;
+    line-height: 2.5;
+}
+}
